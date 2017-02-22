@@ -1,0 +1,4 @@
+interface ShapeItf {
+
+	void show();
+} 
