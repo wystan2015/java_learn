@@ -1,24 +1,14 @@
 #!/bin/bash
-function clr
-{
-	cd $1
-	for file in `ls |grep *.class`
-	do
-		echo "rm $1/$file"
-		rm -f *.class
-	done
-}
-
-
-
 
 echo "start clear class file"
-for file in /home/work/java_learn/*
+for dir in *
 do
-	if [ -d "$file" ]
+	if [ -d $dir ]
 	then
-		clr $file
+		cd $dir
+		clr
 	fi
+	cd -
 done
 
 echo "finish clear class file"
