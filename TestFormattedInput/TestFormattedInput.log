@@ -1,0 +1,17 @@
+
+2017-03-20 14:32:20 excute:
+Enter an integer:Integer read:12
+Enter a double bvalue:Double value read:12.2345
+Enter a string:String read:ad
+Enter an integer:InvalidUserInputException throw.
+readInt() failed.Input data not numeric
+Enter an integer:Integer read:45
+Enter a double bvalue:InvalidUserInputException throw.
+readDouble() failed. Input data not numberic
+Enter an integer:Integer read:123
+Enter a double bvalue:Double value read:123.0
+Enter a string:InvalidUserInputException throw.
+readString failed. Input data is not a string.
+Enter an integer:Integer read:12
+Enter a double bvalue:InvalidUserInputException throw.
+readDouble() failed. Input data not numberic
