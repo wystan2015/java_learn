@@ -11,7 +11,7 @@ public class JDBCTest {
 			
 			
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			String urlString="jdbc:oracle:thin:@192.168.205.135:1521:orcl";
+			String urlString="jdbc:oracle:thin:@192.168.205.136:1521:orcl";
 			Connection connection=DriverManager.getConnection(urlString,"work","work");
 			java.sql.Statement stmt=connection.createStatement();
 			
